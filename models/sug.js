@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const NewLang = new Schema({
+const Sug = new Schema({
     guildID: {
         type: String
     },
@@ -22,4 +22,4 @@ const NewLang = new Schema({
     }
 });
 
-module.exports = model('Language', NewLang)
+module.exports = model('Sugestions', Sug)
